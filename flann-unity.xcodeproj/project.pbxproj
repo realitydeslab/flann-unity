@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4B3531212BE887F80035917A /* flannwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B35311F2BE887F80035917A /* flannwrapper.cpp */; };
-		4B3531262BE88FE00035917A /* liblz4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3531252BE88FE00035917A /* liblz4.dylib */; };
 		4B3924752BE89F0A0033C488 /* flannwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B35311F2BE887F80035917A /* flannwrapper.cpp */; };
 		4B3924762BE89F160033C488 /* liblz4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3531252BE88FE00035917A /* liblz4.dylib */; };
+		4B4074FE2C02F07C00049964 /* liblz4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4074FD2C02F07C00049964 /* liblz4.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,7 @@
 		4B3531232BE88EE10035917A /* liblz4Plastic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblz4Plastic.dylib; path = "../../unity-projects/visionos-collocated-boilerplate_clone_0/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/liblz4Plastic.dylib"; sourceTree = "<group>"; };
 		4B3531252BE88FE00035917A /* liblz4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblz4.dylib; path = ../../../../../opt/homebrew/lib/liblz4.dylib; sourceTree = "<group>"; };
 		4B3924712BE89EFC0033C488 /* flann-unity-bundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "flann-unity-bundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4074FD2C02F07C00049964 /* liblz4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblz4.a; path = ../../../../../opt/homebrew/lib/liblz4.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3531262BE88FE00035917A /* liblz4.dylib in Frameworks */,
+				4B4074FE2C02F07C00049964 /* liblz4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +85,7 @@
 		4B3531222BE88EE10035917A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B4074FD2C02F07C00049964 /* liblz4.a */,
 				4B3531252BE88FE00035917A /* liblz4.dylib */,
 				4B3531232BE88EE10035917A /* liblz4Plastic.dylib */,
 			);
